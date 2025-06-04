@@ -1,0 +1,22 @@
+{
+  "name": "playwrighttest2-git-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandeepaNimsara/Playwrighttest2-Git-Repository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChandeepaNimsara/Playwrighttest2-Git-Repository/issues"
+  },
+  "homepage": "https://github.com/ChandeepaNimsara/Playwrighttest2-Git-Repository#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29"
+  }
+}
