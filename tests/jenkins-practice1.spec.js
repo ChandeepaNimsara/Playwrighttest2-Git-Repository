@@ -5,6 +5,7 @@ test('has title test 1', async ({ page }) => {
     await page.goto('https://playwright.dev/');
     await page.waitForTimeout(2200);
     // Expect a title "to contain" a substring.
+    
     await expect(page).toHaveTitle(/Playwright/)
     console.log("Ending Jenkins Practice Test 1");
 });
