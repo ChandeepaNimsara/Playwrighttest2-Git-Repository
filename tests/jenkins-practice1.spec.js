@@ -11,7 +11,7 @@ test('has title test 1', async ({ page }) => {
 test('has title test 2', async ({ page }) => {
     console.log("Start Jenkins Practice Test 2")
     await page.goto('https://playwright.dev/');
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(2000);
     await expect(page).toHaveTitle(/abc/)
     console.log("Ending Jenkins Practice Test 2");
 });
